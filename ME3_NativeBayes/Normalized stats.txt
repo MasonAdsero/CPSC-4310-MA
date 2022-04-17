@@ -1,0 +1,42 @@
+[[16  0  0]
+ [ 0 18  0]
+ [ 0  0 16]]
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        16
+  versicolor       1.00      1.00      1.00        18
+   virginica       1.00      1.00      1.00        16
+
+    accuracy                           1.00        50
+   macro avg       1.00      1.00      1.00        50
+weighted avg       1.00      1.00      1.00        50
+
+{'setosa': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 16}, 'versicolor': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 18}, 'virginica': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 16}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 50}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 50}}
+[[22  0  0]
+ [ 0 14  2]
+ [ 0  1 11]]
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        22
+  versicolor       0.93      0.88      0.90        16
+   virginica       0.85      0.92      0.88        12
+
+    accuracy                           0.94        50
+   macro avg       0.93      0.93      0.93        50
+weighted avg       0.94      0.94      0.94        50
+
+{'setosa': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 22}, 'versicolor': {'precision': 0.9333333333333333, 'recall': 0.875, 'f1-score': 0.9032258064516129, 'support': 16}, 'virginica': {'precision': 0.8461538461538461, 'recall': 0.9166666666666666, 'f1-score': 0.8799999999999999, 'support': 12}, 'accuracy': 0.94, 'macro avg': {'precision': 0.9264957264957264, 'recall': 0.9305555555555555, 'f1-score': 0.927741935483871, 'support': 50}, 'weighted avg': {'precision': 0.9417435897435898, 'recall': 0.94, 'f1-score': 0.9402322580645162, 'support': 50}}
+[[12  0  0]
+ [ 0 15  1]
+ [ 0  2 20]]
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        12
+  versicolor       0.88      0.94      0.91        16
+   virginica       0.95      0.91      0.93        22
+
+    accuracy                           0.94        50
+   macro avg       0.94      0.95      0.95        50
+weighted avg       0.94      0.94      0.94        50
+
+{'setosa': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 12}, 'versicolor': {'precision': 0.8823529411764706, 'recall': 0.9375, 'f1-score': 0.9090909090909091, 'support': 16}, 'virginica': {'precision': 0.9523809523809523, 'recall': 0.9090909090909091, 'f1-score': 0.9302325581395349, 'support': 22}, 'accuracy': 0.94, 'macro avg': {'precision': 0.9449112978524742, 'recall': 0.9488636363636364, 'f1-score': 0.9464411557434813, 'support': 50}, 'weighted avg': {'precision': 0.9414005602240897, 'recall': 0.94, 'f1-score': 0.9402114164904863, 'support': 50}}
